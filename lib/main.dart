@@ -17,7 +17,10 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Rotated Box")),
+      appBar: AppBar(
+        title: Text("Fitted Box"),
+        centerTitle: true,
+      ),
       body: FittedBox(
         fit: BoxFit.cover,
         child: Row(
